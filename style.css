@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:
+    linear-gradient(
+        135deg,
+        #0b1120,
+        #172554,
+        #1e3a8a
+    );
+    padding:20px;
+}
+
+.container{
+    width:100%;
+    max-width:800px;
+}
+
+.card{
+    background:#ffffff;
+    border-radius:24px;
+    padding:50px;
+    box-shadow:
+        0 25px 50px rgba(0,0,0,.25);
+    border:1px solid rgba(255,255,255,.1);
+}
+
+
+.header{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.badge{
+    background:linear-gradient(
+        135deg,
+        #2563eb,
+        #3b82f6
+    );
+    color:white;
+    padding:10px 20px;
+    border-radius:999px;
+    font-weight:600;
+}
+
+.header h1{
+    color:#0f172a;
+    margin-bottom:10px;
+}
+
+.header p{
+    color:#64748b;
+    line-height:1.6;
+}
+
+#result{
+    margin-top:25px;
+    padding:25px;
+    border-radius:15px;
+    background:#f8fafc;
+    border-left:6px solid #2563eb;
+    min-height:120px;
+}
+
+
+.result-box{
+    background:#f8fafc;
+    border:1px solid #e2e8f0;
+    border-radius:18px;
+    padding:30px;
+    min-height:220px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.placeholder{
+    color:#94a3b8;
+    font-size:18px;
+}
+
+.student-name{
+    font-size:28px;
+    font-weight:700;
+    color:#0f172a;
+    margin-bottom:15px;
+}
+
+.student-score{
+    font-size:20px;
+    margin-bottom:15px;
+    color:#334155;
+}
+
+.remark{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.excellent{
+    color:#16a34a;
+}
+
+.passed{
+    color:#2563eb;
+}
+
+.failed{
+    color:#dc2626;
+}
+
+.invalid{
+    color:#f59e0b;
+}
+
+.cancelled{
+    color:#475569;
+}
+
+.message{
+    font-size:18px;
+    line-height:1.6;
+}
+#retryBtn{
+    margin-top:20px;
+    padding:14px 28px;
+    border:none;
+    border-radius:12px;
+    background:linear-gradient(
+        135deg,
+        #2563eb,
+        #3b82f6
+    );
+    color:white;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s ease;
+}
+
+#retryBtn:hover{
+    transform:translateY(-3px);
+    box-shadow:
+        0 10px 25px rgba(37,99,235,.35);
+}
